@@ -1,6 +1,4 @@
-import  Layout ''
+import  Layout from '../../components/Layout';
 export default function EventPage() {
-    return <div>events
-        <p>YEET</p>
-    </div>;
+    return <Layout> Events </Layout>;
 }
