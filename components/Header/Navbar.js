@@ -13,9 +13,9 @@ export default function Navbar() {
 
     return (
         <div className={styles.navContainer}>
-            {/*<input type="checkbox" checked={isChecked} onChange={changeHandler} />
+            <input type="checkbox" checked={isChecked} onChange={changeHandler} />
             <label onClick={changeHandler} className={styles.navContainer__checkBtn}>
-            </label>*/}
+            </label>
             <nav className={styles.nav}>
                 <ul className={styles.nav__list}>
                     

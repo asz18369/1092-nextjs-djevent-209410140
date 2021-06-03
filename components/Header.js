@@ -15,6 +15,11 @@ export default function Header() {
               <a>Events</a>
             </Link>
           </li>
+          <li>
+            <Link href='/classdemo/cards'>
+              <a>Cards</a>
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
