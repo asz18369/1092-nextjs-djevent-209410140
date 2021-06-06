@@ -5,7 +5,7 @@ export default function portfolio() {
     return (
         <div>
             <Layout>
-                <card />
+                <Card />
             </Layout>
         </div>
     )

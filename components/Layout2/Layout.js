@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Navbar from '../Header/Navbar'
 import styles from './Layout.module.scss'
 
+
 export default function Layout(props) {
     return (
         <div className={styles.layout}>
