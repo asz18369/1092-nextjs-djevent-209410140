@@ -2,7 +2,6 @@ import styles from './Navbar.module.scss'
 import Link from 'next/link'
 import { useState } from 'react'
 
-
 export default function Navbar() {
     const [isChecked, setIsChecked] = useState(false)
 
@@ -43,7 +42,10 @@ export default function Navbar() {
                     </li>
                     
                 </ul>
+                
             </nav>
+            <p>space</p>
+            <p>word</p>
        </div>
     )
 }
