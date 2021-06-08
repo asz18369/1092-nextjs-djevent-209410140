@@ -54,3 +54,10 @@ h1 {
 .btn-icon svg {
   margin-right: 5px;
 }
+
+body {
+  background: #2d2013;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}

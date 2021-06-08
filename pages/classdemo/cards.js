@@ -1,11 +1,11 @@
-import Layout from '../../components/Layout';
+import Layout2 from '../../components/Layout2';
 import cards from './data';
 import styles from '../../styles/Cards.module.scss';
 
 export default function CardsPage() {
   // console.log('cards', cards);
   return (
-    <Layout>
+    <Layout2>
       <section className={styles.card_container}>
         {cards.map((card) => (
           <Card
@@ -16,7 +16,7 @@ export default function CardsPage() {
           />
         ))}
       </section>
-    </Layout>
+    </Layout2>
   );
 }
 
