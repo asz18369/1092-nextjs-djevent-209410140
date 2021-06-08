@@ -1,5 +1,6 @@
 import styles from './meals.module.css';
 import Head from 'next/head';
+import meal from '../../meals-data'
 
 export default function meals() {
     return (
